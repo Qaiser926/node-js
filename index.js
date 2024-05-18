@@ -1,13 +1,6 @@
 
-// http module node js k ander request and create handle karta he
-const http=require("http");
+// const { default: chalk } = require("chalk");
+const color=require("chalk");
 
-// 
 
-http.createServer(
-(req, res)=>{
-    res.write("<h1>hello Qaiser welcome to node js");
-    res.end();
-}
-
-).listen(4500);
+console.log(chalk.blue('Hello world!'));
